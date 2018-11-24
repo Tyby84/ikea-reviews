@@ -387,7 +387,7 @@ template {
 }
 
 .reviews__item__product {
-	
+	text-transform: capitalize;
 }
 
 .reviews__item__review {
@@ -398,7 +398,13 @@ template {
 .product-link{
 	text-decoration: none;
 	color: #2d758b;
+	transition: color .5s ease-out;
+	font-weight: 600;
 }
+
+.product-link:hover{
+		color: rgb(46, 60, 64);
+	}
 
 .stars{
 	
