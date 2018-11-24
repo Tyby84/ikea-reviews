@@ -1,25 +1,25 @@
 [
 	{
-		"customer_name" : "Jeny",
+		"customer_name" : "Kate",
 		"customer_age" : "28",
-		"product_name" : "shoes",
-		"customer_review" : "It's a cool shooes!!",
+		"product_name" : "Single mattress",
+		"customer_review" : "It's really comfortable and firm!",
 		"rating" : "5"
 		
 	},
 	{
 		"customer_name" : "Hans",
 		"customer_age" : "43",
-		"product_name" : "belt",
-		"customer_review": "not the best..",
+		"product_name" : "Dining table",
+		"customer_review": "Looks classic and designed for big families.",
 		"rating" : "4"
 		
 	},
 	{
 		"customer_name" : "Henry",
 		"customer_age" : "55",
-		"product_name" : "wallet",
-		"customer_review": "Amazing!!",
+		"product_name" : "Sofa",
+		"customer_review": "Absolutley cosy and real IKEA design!",
 		"rating" : "5"
 		
 	}

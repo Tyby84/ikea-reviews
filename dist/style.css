@@ -350,6 +350,7 @@ template {
 }
 
 .headline {
+	
 	width: 400px;
 	margin: 1rem auto 2rem auto;
 	color: #2d758b;
@@ -389,9 +390,9 @@ template {
 	}
 
 .reviews__item {
-		border: 2px solid #2d758b;
-		width: 300px;
-		padding: .5rem;
+		/*border: 2px solid $sky-blue;*/
+		width: 350px;
+		
 		text-align: center;
 }
 
@@ -425,12 +426,13 @@ template {
 }
 
 .reviews__item__product {
-	text-transform: capitalize;
 }
 
 .reviews__item__review {
+		max-width: 250px;
 		font-weight: 600;
 		font-style: italic;
+		margin: auto;
 }
 
 .product-link{
