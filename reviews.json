@@ -1,17 +1,15 @@
 [
 	{
-		"customer_name" : "Janeee",
+		"customer_name" : "Jeny",
 		"customer_age" : "28",
-		"customer_pic" : "N/A",
 		"product_name" : "shoes",
 		"customer_review" : "It's a cool shooes!!",
 		"rating" : "5"
 		
 	},
 	{
-		"customer_name" : "JOe",
+		"customer_name" : "Hans",
 		"customer_age" : "43",
-		"customer_pic" : "N/A",
 		"product_name" : "belt",
 		"customer_review": "not the best..",
 		"rating" : "4"
@@ -20,7 +18,6 @@
 	{
 		"customer_name" : "Henry",
 		"customer_age" : "55",
-		"customer_pic" : "N/A",
 		"product_name" : "wallet",
 		"customer_review": "Amazing!!",
 		"rating" : "5"

@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import './variables.css';
+@import './mixins.css';
 
 .headline {
 	width: 400px;
@@ -19,18 +20,43 @@
 	margin: 1rem auto;
 	color: $mainfont;
 	font-family: 'Montserrat', sans-serif;
-
+	
+	@mixin medium{
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	
+	@mixin small{
+		flex-direction: column;
+		align-items: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
 
 	&__item {
 		border: 2px solid $sky-blue;
 		width: 300px;
 		padding: .5rem;
 		text-align: center;
-	
+		
+		@mixin medium{
+			width: 250px;
+			padding: .2rem;
+		}
+		
+		@mixin small{
+			width: 400px;
+			margin-bottom: 1rem;
+		}
 }
 
 	&__item__name {
+		width: 80%;
 		font-weight: 600;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid $sky-blue;
+		margin: 1rem auto;
 }
 
 	&__item__age {
@@ -59,10 +85,14 @@
 }
 
 .stars{
-	
 	width: 185px;
 	height: 35px;
-}
-.hr {
-	color:$sky-blue;
+	@mixin medium{
+	width: 150px;
+	height: 25px;	
+	}
+	@mixin small{
+	width: 185px;
+	height: 35px;
+	}
 }

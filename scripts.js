@@ -12,7 +12,6 @@ $.getJSON("reviews.json", function (data) {
 				<h3 class="reviews__item__name">${name}
 				<span class="reviews__item__age">(${age})</span>
 				</h3>
-				<hr class="hr">
 				<p class="reviews__item__product">Bought <a class="product-link" href="#">${product}</a> at IKEA</p>
 				<p class="reviews__item__review">${review}</p>
 				<p>${ratings == 4  ? '<img class="stars" src="stars/4stars.jpg" alt="Rating">' : ''}
