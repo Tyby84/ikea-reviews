@@ -1,0 +1,54 @@
+@import 'normalize.css';
+@import './variables.css';
+
+.headline {
+	width: 400px;
+	margin: 1rem auto 2rem auto;
+	color: #2d758b;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	
+}
+
+.reviews {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	justify-content: space-around;
+	margin: 1rem auto;
+	color: $mainfont;
+	font-family: 'Montserrat', sans-serif;
+
+
+	&__item {
+		border: 2px solid $sky-blue;
+		width: 300px;
+		padding: .5rem;
+		text-align: center;
+	
+}
+
+	&__item__name {
+		font-weight: 600;
+}
+
+	&__item__age {
+		font-weight: 400;
+		font-size: .9rem;
+}
+
+	&__item__product {
+	
+}
+
+	&__item__review {
+		font-weight: 600;
+		font-style: italic;
+}
+}
+
+.product-link{
+	text-decoration: none;
+	color: $sky-blue;
+}
