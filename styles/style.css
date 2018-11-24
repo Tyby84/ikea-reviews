@@ -52,3 +52,12 @@
 	text-decoration: none;
 	color: $sky-blue;
 }
+
+.stars{
+	
+	width: 185px;
+	height: 35px;
+}
+.hr {
+	color:$sky-blue;
+}

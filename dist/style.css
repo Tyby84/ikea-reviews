@@ -399,3 +399,13 @@ template {
 	text-decoration: none;
 	color: #2d758b;
 }
+
+.stars{
+	
+	width: 185px;
+	height: 35px;
+}
+
+.hr {
+	color:#2d758b;
+}
