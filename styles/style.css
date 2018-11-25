@@ -36,9 +36,7 @@
 	}
 
 	&__item {
-		/*border: 2px solid $sky-blue;*/
 		width: 350px;
-		
 		text-align: center;
 		
 		@mixin medium{
@@ -59,14 +57,13 @@
 		border-bottom: 1px solid $sky-blue;
 		margin: 1rem auto;
 }
+	
 
 	&__item__age {
 		font-weight: 400;
 		font-size: .9rem;
 }
 
-	&__item__product {
-}
 
 	&__item__review {
 		max-width: 250px;
@@ -82,7 +79,7 @@
 	transition: color .5s ease-out;
 	font-weight: 600;
 	&:hover{
-		color: color($sky-blue blackness(+30%));
+		color: color($sky-blue blackness(+15%));
 	}
 }
 

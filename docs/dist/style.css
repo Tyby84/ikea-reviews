@@ -390,9 +390,7 @@ template {
 	}
 
 .reviews__item {
-		/*border: 2px solid $sky-blue;*/
 		width: 350px;
-		
 		text-align: center;
 }
 
@@ -425,9 +423,6 @@ template {
 		font-size: .9rem;
 }
 
-.reviews__item__product {
-}
-
 .reviews__item__review {
 		max-width: 250px;
 		font-weight: 600;
@@ -443,7 +438,7 @@ template {
 }
 
 .product-link:hover{
-		color: rgb(46, 60, 64);
+		color: rgb(46, 89, 102);
 	}
 
 .stars{
